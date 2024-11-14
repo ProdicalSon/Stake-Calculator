@@ -26,7 +26,11 @@ label {
     margin: 10px 0 5px;
     font-weight: bold;
 }
-
+label, select, input, button, p {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+}
 input {
     width: calc(100% - 20px);
     padding: 10px;
