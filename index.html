@@ -44,7 +44,7 @@
             <tbody id="tableBody"></tbody>
         </table>
 
-        <!-- Additional Information -->
+        
         <p style="text-align: center; font-size: 12px;">&copy; Joh Brian</p>
         
     </div>
@@ -80,14 +80,14 @@
                 currentStake *= dailyOdd;
             }
 
-            // Display the results table
+           
             document.getElementById('resultTable').style.display = 'table';
 
-            // Generate the stake growth chart
+            
             displayChart(stakes);
         }
 
-        // Display chart using Chart.js
+       
         function displayChart(stakes) {
             const ctx = document.getElementById('chart').getContext('2d');
             new Chart(ctx, {
